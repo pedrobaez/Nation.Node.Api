@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model continents {
+  continent_id Int       @id @default(autoincrement())
+  name         String    @db.VarChar(255)
+  regions      regions[]
+}
+
+model guests {
+  guest_id Int    @id
+  name     String @db.VarChar(100)
+}
+
+model languages {
+  language_id Int    @id @default(autoincrement())
+  language    String @db.VarChar(50)
+}
+
+model region_areas {
+  region_name String  @id @db.VarChar(100)
+  region_area Decimal @db.Decimal(15, 2)
+}
+
+model regions {
+  region_id    Int        @id @default(autoincrement())
+  name         String     @db.VarChar(100)
+  continent_id Int
+  continents   continents @relation(fields: [continent_id], references: [continent_id], onUpdate: Restrict, map: "regions_ibfk_1")
+
+  @@index([continent_id], map: "continent_id")
+}
+
+model vips {
+  vip_id Int    @id
+  name   String @db.VarChar(100)
+}

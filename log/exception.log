@@ -1,0 +1,126 @@
+2024-02-25T06:36:26.888Z error: unhandledRejection: 
+Invalid `prisma.guests.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+PrismaClientKnownRequestError: 
+Invalid `prisma.guests.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+    at _n.handleRequestError (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:6854)
+    at _n.handleAndLogRequestError (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:6188)
+    at _n.request (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:5896)
+    at async l (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:128:10871)
+    at async file:///C:/Repos/first/controllers/guests-controller.js:15:18
+2024-02-25T06:41:38.970Z error: unhandledRejection: 
+Invalid `prisma.guests.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+PrismaClientKnownRequestError: 
+Invalid `prisma.guests.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+    at _n.handleRequestError (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:6854)
+    at _n.handleAndLogRequestError (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:6188)
+    at _n.request (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:5896)
+    at async l (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:128:10871)
+    at async file:///C:/Repos/first/controllers/guests-controller.js:15:18
+2024-02-25T06:42:26.317Z error: unhandledRejection: 
+Invalid `prisma.guests.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+PrismaClientKnownRequestError: 
+Invalid `prisma.guests.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+    at _n.handleRequestError (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:6854)
+    at _n.handleAndLogRequestError (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:6188)
+    at _n.request (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:5896)
+    at async l (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:128:10871)
+    at async file:///C:/Repos/first/controllers/guests-controller.js:15:18
+2024-02-25T06:42:47.893Z error: unhandledRejection: 
+Invalid `prisma.guests.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+PrismaClientKnownRequestError: 
+Invalid `prisma.guests.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+    at _n.handleRequestError (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:6854)
+    at _n.handleAndLogRequestError (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:6188)
+    at _n.request (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:123:5896)
+    at async l (C:\Repos\first\node_modules\@prisma\client\runtime\library.js:128:10871)
+    at async file:///C:/Repos/first/controllers/guests-controller.js:15:18
+2024-02-25T23:15:42.839Z error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:253:25)
+    at module.exports (C:\Repos\first\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Repos/first/swagger.js:33:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+2024-02-25T23:15:56.977Z error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:253:25)
+    at module.exports (C:\Repos\first\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Repos/first/swagger.js:33:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+2024-02-25T23:16:18.219Z error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:253:25)
+    at module.exports (C:\Repos\first\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Repos/first/swagger.js:33:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+2024-02-25T23:16:36.715Z error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:253:25)
+    at module.exports (C:\Repos\first\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Repos/first/swagger.js:33:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+2024-02-25T23:17:22.010Z error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:253:25)
+    at module.exports (C:\Repos\first\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Repos/first/swagger.js:33:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+2024-02-25T23:18:26.761Z error: uncaughtException: Cannot read properties of undefined (reading 'cstNode')
+TypeError: Cannot read properties of undefined (reading 'cstNode')
+    at C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:263:39
+    at Array.forEach (<anonymous>)
+    at build (C:\Repos\first\node_modules\swagger-jsdoc\src\specification.js:253:25)
+    at module.exports (C:\Repos\first\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Repos/first/swagger.js:33:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
